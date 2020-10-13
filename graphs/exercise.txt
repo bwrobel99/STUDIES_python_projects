@@ -1,0 +1,18 @@
+1. Napisz funkcję adjmat_to_adjlist(A), która zamieni graf bez wag w reprezentacji macierzowej A na reprezentację w postaci listy sąsiedztwa.
+
+2. Napisz dwie funkcje:
+
+dfs_recursive(G, s) (rekurencyjna implementacja algorytmu DFS)
+dfs_iterative(G, s) (iteracyjna implementacja algorytmu DFS)
+które dla zadanego grafu 
+G
+ (reprezentowanego w formie listy sąsiedztwa) oraz wierzchołka początkowego 
+s
+ zwrócą listę odwiedzonych wierzchołków (bez uwzględniania powrotów.
+
+3. Napisz funkcję is_acyclic(G) sprawdzającą czy zadany graf skierowany G (reprezentowany w formie listy sąsiedztwa) jest grafem acyklicznym.
+
+4. Napisz funkcję neighbors(G, s, d_max), która dla danego grafu 
+G (w postaci listy sąsiedztwa) wyznaczy w efektywny sposób zbiór sąsiadów wierzchołka s leżących w odległości mniejszen niż d_max od wierzchołka s.
+
+5. Napisz program, który wyznaczy najkrótszą drogę dla zadanych wierzchołków w grafie skierowanym z krawędziami wielokrotnymi.

@@ -1,0 +1,6 @@
+Kilka hurtowni produktów (spożywczych) postanowiło stworzyć uniwersalny system do obsługi katalogów oferowanych przez nie produktów – system ma powstać z myślą o klientach, którzy chcieliby posiadać możliwość sprawdzenia cen pewnych produktów w wybranej hurtowni.
+
+Każda hurtownia posiada (pojedynczy) własny serwer przechowujący katalog oferowanych przez nią produktów, przy czym sposób przechowywania informacji różni się pomiędzy poszczególnymi typami serwerów. Co więcej, ponieważ każda hurtownia może stosować inne oznaczenia tych samych produktów, dlatego nie istnieje wspólna baza produktów.
+
+System nie ma na celu łączyć wszystkich serwerów w jedną sieć, tylko umożliwić jego efektywne wdrożenie w każdej z hurtowni (z osobna). Powinien zatem być zaprojektowany w taki sposób, aby uwzględniał różnorodność reprezentacji katalogu produktów w ramach serwera w poszczególnych hurtowniach. W szczególności klienci hurtowni powinni być w stanie uzyskiwać pożądane informacje bez znajomości sposobu reprezentacji katalogu produktów na konkretnym serwerze.
+
